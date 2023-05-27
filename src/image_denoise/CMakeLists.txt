@@ -14,7 +14,7 @@ set(BUILD_SHARED_LIBS ON)
 # set(CMAKE_BUILD_RPATH_USE_ORIGIN True)
 # ArgParser cxxopts
 find_package(cxxopts REQUIRED)
-set(CXXOPTS_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/../ext/cxxopts/dist/include)
+set(CXXOPTS_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/../../ext/cxxopts/dist/include)
 # OpenImageIO
 find_package(OpenImageIO REQUIRED)
 # OpenImageDenoise

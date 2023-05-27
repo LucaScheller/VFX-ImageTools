@@ -12,7 +12,7 @@ ${LD_LIBRARY_PATH}"
 
 # Python
 export PYTHONPATH="\
-${REPO_ROOT}/image_denoise/dist/lib/python:\
+${REPO_ROOT}/src/image_denoise/dist/lib/python:\
 ${REPO_ROOT}/ext/OpenImageIO/OpenImageIO/dist/lib64/python3.9/site-packages/OpenImageIO:\
 ${REPO_ROOT}/ext/OpenImageIO/ext/dist/lib64/python3.9/site-packages:\
 ${PYTHONPATH}"

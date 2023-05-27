@@ -7,7 +7,7 @@ export OpenImageIO_DIR=$REPO_ROOT/ext/OpenImageIO/OpenImageIO/dist/lib64/cmake/O
 export OpenImageDenoise_DIR=$REPO_ROOT/ext/OpenImageDenoise/OpenImageDenoise/dist/lib64/cmake/OpenImageDenoise-1.4.3
 export BOOST_ROOT=/mnt/data/SOFTWARE/Boost___1.82.0___x64___linux/dist
 
-cd $REPO_ROOT/image_denoise
+cd $REPO_ROOT/src/image_denoise
 cmake . -D CMAKE_INSTALL_PREFIX=dist -B build
 cmake --build build # --clean-first              # make clean all
 cmake --install build                          # make install
